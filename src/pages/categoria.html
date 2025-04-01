@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores de Japón</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/logo.png">
+</head>
+
+<body>
+    <header>
+        <include src="components/header/header.html"></include>
+    </header>
+
+    <main class="categoria-main">
+        <h1>Selección de recetas</h1>
+
+        <section class="categoria-grid">
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="/src/pages/detalle.html" class="receta-link" data-id="ramen"><img class="categoria-item-img" src="../assets/images/categoria-ramen-tonkotsu.png" alt="Ramen Tonkotsu"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="/src/pages/detalle.html">Ramen Tonkotsu</a></h3>
+                    <p class="categoria-link-blog-p">Sumérgete en la intensidad del sabor japonés con este ramen de caldo cremoso cocinado durante horas. ¡Una explosión umami en cada cucharada!</p>
+                </div>
+            </article>
+
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="/src/pages/detalle.html" class="receta-link" data-id="yakitori"><img class="categoria-item-img" src="../assets/images/categoria-yakitori.png" alt="Yakitori"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="#">Yakitori</a></h3>
+                    <p class="categoria-link-blog-p">Brochetas irresistibles de pollo a la parrilla, bañadas en una salsa dulce y salada. ¡Perfectas para acompañar con sake o una buena charla!</p>
+                </div>
+            </article>
+
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="./detalle.html"><img class="categoria-item-img" src="../assets/images/categoria-sushi-nigiri.png" alt="Sushi Nigiri"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="#">Sushi Nigiri</a></h3>
+                    <p class="categoria-link-blog-p">Delicadeza en su máxima expresión. Cada bocado de nigiri combina arroz sazonado y pescado fresco en perfecta armonía.</p>
+                </div>
+            </article>
+
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="#"><img class="categoria-item-img" src="../assets/images/categoria-kare-raisu.png" alt="Kare Raisu"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="#">Kare Raisu</a></h3>
+                    <p class="categoria-link-blog-p">El sabor casero de Japón: un curry suave, reconfortante y lleno de sabor que conquista desde el primer bocado.</p>
+                </div>
+            </article>
+
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="#"><img class="categoria-item-img" src="../assets/images/categoria-bento.png" alt="Bento Tradicional"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="#">Bento Tradicional</a></h3>
+                    <p class="categoria-link-blog-p">Color, sabor y equilibrio en una sola caja. El almuerzo japonés por excelencia, pensado para alimentar cuerpo y alma.</p>
+                </div>
+            </article>
+
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="#"><img class="categoria-item-img" src="../assets/images/categoria-gyoza.png" alt="Gyoza"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="#">Gyoza</a></h3>
+                    <p class="categoria-link-blog-p">Crujientes por fuera, jugosas por dentro. Estas empanadillas japonesas son el entrante perfecto… ¡y adictivas!</p>
+                </div>
+            </article>
+
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="#"><img class="categoria-item-img" src="../assets/images/categoria-onigiri.png" alt="Onigiri"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="#">Onigiri</a></h3>
+                    <p class="categoria-link-blog-p">Triángulos de arroz envueltos parcialmente en alga nori, rellenos de salmón o umeboshi (ciruela encurtida).</p>
+                </div>
+            </article>
+
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="#"><img class="categoria-item-img" src="../assets/images/categoria-gyudon.png" alt="Donburi de Ternera (Gyudon)"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="#">Donburi de Ternera (Gyudon)</a></h3>
+                    <p class="categoria-link-blog-p">Rápido, reconfortante y lleno de sabor. Este bol de arroz con ternera es un favorito japonés para el día a día.</p>
+                </div>
+            </article>
+            
+            <article class="categoria-card">
+                <div class="categoria-item-pic">
+                    <a href="#"><img class="categoria-item-img" src="../assets/images/categoria-mochi.png" alt="Mochi de Té Verde"></a>
+                </div>
+                <div class="categoria-item-content">
+                    <h3><a class="categoria-link-blog-h3" href="#">Mochi de Té Verde</a></h3>
+                    <p class="categoria-link-blog-p">Dulce, suave y con un toque de amargor elegante. El postre japonés por excelencia que deleita a todos los sentidos.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <include src="components/footer/footer.html"></include>
+    </footer>
+
+    <!-- <script type="module" src="../js/main.js"></script> -->
+    <script type="module">
+        document.querySelectorAll(".receta-link").forEach(link => {
+            link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const id = e.currentTarget.dataset.id;
+            window.location.href = `detalle.html?id=${id}`;
+            });
+        }); // redirección manual del navegador para evitar conflicto con detalle.html?id=xxx.
+    </script>
+</body>
+</html>
+

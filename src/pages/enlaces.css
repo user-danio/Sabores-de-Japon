@@ -1,0 +1,30 @@
+.enlaces-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 35rem;
+}
+.enlaces-container > h1 {
+    margin-bottom: 3rem;
+}
+.enlaces-ul-li {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+.enlaces-ul-li-2 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.enlaces-container a {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    display: inline-block;
+    max-width: 100%;
+}
+@media (max-width: 1080px) {
+    .enlaces-container {
+        padding: 3rem;
+        margin-bottom: 0;
+    }
+}

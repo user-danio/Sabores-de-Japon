@@ -1,0 +1,22 @@
+{
+  "name": "sabores-de-japon",
+  "private": true,
+  "version": "0.0.0",
+  "source": "src/pages/index.html",
+  "browserslist": "> 0.2%, last 3 versions, not dead, IE 11",
+  "scripts": {
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel src/pages/index.html",
+    "parcel:build": "parcel build src/pages/index.html --dist-dir docs --public-url ./",
+    "clean": "rimraf dist .parcel-cache"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.14.1",
+    "posthtml-include": "^2.0.1",
+    "rimraf": "^6.0.1",
+    "root": "^3.2.0",
+    "svgo": "^3.3.2"
+  }
+}

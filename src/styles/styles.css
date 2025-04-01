@@ -1,0 +1,23 @@
+@import '../components/portada/bento/bento.css';
+@import '../components/header/header.css';
+@import '../components/footer/footer.css';
+@import '../pages/categoria.css';
+@import '../pages/detalle.css';
+@import '../pages/enlaces.css';
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+}
+main {
+  flex: 1;
+}
+
