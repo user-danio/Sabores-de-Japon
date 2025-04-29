@@ -11,7 +11,7 @@ if (data) {
     `
         <div class="detalle-container-js">
             <h1 class="detalle-titulo">${data.titulo}</h1>
-            <img class="detalle-img" src="${data.imagenDestacada[0]}" alt="Bol Ramen">
+            <img class="detalle-img-dest" src="${data.imagenDestacada[0]}" alt="Bol Ramen">
             <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenDestacada[1]}</caption></p>
             <p class="detalle-p">${data.descripcion[0]}</p>
             <img class="detalle-img" src="${data.imagenes[0][0]}" alt="Fukuoka">

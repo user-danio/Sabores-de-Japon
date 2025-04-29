@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .detalle-titulo {
     color: red;
     text-align: center;
@@ -21,6 +24,14 @@
     border-radius: 25px;
     width: 75%;
     margin: auto;
+}
+.detalle-img-dest {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    height: 50vh;
+    object-fit: cover;
 }
 .detalle-vid {
     margin: auto;

@@ -13,7 +13,8 @@
 .cultura {
     grid-column: span 1; 
     grid-row: span 5; 
-    background-image: url("../../../assets/images/torii-black.jpg");
+    /* background-image: url("../../../assets/images/torii-black.jpg"); */
+    background-image: url("../../../assets/images/torii-black.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,6 +26,7 @@
     align-items: center;
     border-radius: 30px;  
     transition: 2s;
+    clip-path: ellipse(70% 100% at 30% 50%);
 }
 .cultura:hover, .sabores:hover, .localizacion:hover, .enlaces:hover {
     cursor: pointer;
@@ -43,7 +45,8 @@
 .sabores {
     grid-column: span 3; 
     grid-row: span 5;
-    background-image: url("../../../assets/images/ramen.jpg");
+    /* background-image: url("../../../assets/images/ramen.jpg"); */
+    background-image: url("../../../assets/images/ramen.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,6 +58,15 @@
     align-items: center;
     border-radius: 30px;  
     transition: 2s;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+/* Para mejorar calidad de imagen en pantallas con mejor resolución */
+@media 
+(-webkit-min-device-pixel-ratio: 2){
+    .sabores {
+    /* background-image: url("../../../assets/images/ramen-2x.jpeg"); */
+    background-image: url("../../../assets/images/ramen-2x.avif");
+    }
 }
 .sabores-contenido {
     margin-top: 2rem;
@@ -68,7 +80,8 @@
 .localizacion {
     grid-column: span 1; 
     grid-row: span 5;
-    background-image: url("../../../assets/images/street.jpg");
+    /* background-image: url("../../../assets/images/street.jpg"); */
+    background-image: url("../../../assets/images/street.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,6 +93,7 @@
     align-items: center;
     border-radius: 30px;   
     transition: 2s;
+    clip-path: ellipse(70% 100% at 70% 50%);
 }
 .enlaces-contenido {
     color: black;
@@ -96,11 +110,19 @@
     align-items: flex-start;
     background-color: black;
     border-radius: 15px;
-    background-image: url("../../../assets/images/japan-footer.png");
+    background-image: url("../../../assets/images/japan-footer.svg");
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
     transition: 2s;
+}
+@keyframes arribaAbajo {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+.enlaces {
+    animation: arribaAbajo 3s ease-in-out infinite;
 }
 a {
     text-decoration: none;
