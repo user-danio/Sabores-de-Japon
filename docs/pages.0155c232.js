@@ -1,145 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabores de Japón</title>
-    <link rel="stylesheet" href="/pages.3b8f328d.css">
-    <link rel="icon" type="image/x-icon" href="/logo.08a29ce2.png">
-</head>
-
-<body>
-    <header>
-        <div class="header">
-    <div class="logo">
-        <a href="/index.html"> <img src="/logo.5b34b4d1.svg" alt="Sabores de Japón" class="logo-animado"></a> 
-    </div>
-    <nav class="navigation">
-        <ul class="nav-list">
-            <li id="tema-mes"><a class="link-header" href="/index.html">Inicio</a></li>
-            <li><a class="link-header" href="/categoria.html">Recetas</a></li>
-            <li><a class="link-header" href="#">Restaurantes</a></li>
-            <li><a class="link-header" href="#">Eventos</a></li>
-            <li><a class="link-header" href="/enlaces.html">Información</a></li>
-        </ul>
-    </nav>
-</div>
-    </header>
-
-    <main class="categoria-main">
-        <h1>Selección de recetas</h1>
-
-        <section class="categoria-grid">
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="/detalle.html" class="receta-link" data-id="ramen"><img class="categoria-item-img" src="/categoria-ramen-tonkotsu.8adb9f12.png" alt="Ramen Tonkotsu"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="/detalle.html">Ramen Tonkotsu</a></h3>
-                    <p class="categoria-link-blog-p">Sumérgete en la intensidad del sabor japonés con este ramen de caldo cremoso cocinado durante horas. ¡Una explosión umami en cada cucharada!</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="/detalle.html" class="receta-link" data-id="yakitori"><img class="categoria-item-img" src="/categoria-yakitori.b396fa44.png" alt="Yakitori"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Yakitori</a></h3>
-                    <p class="categoria-link-blog-p">Brochetas irresistibles de pollo a la parrilla, bañadas en una salsa dulce y salada. ¡Perfectas para acompañar con sake o una buena charla!</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="/detalle.html"><img class="categoria-item-img" src="/categoria-sushi-nigiri.fa3c79e8.png" alt="Sushi Nigiri"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Sushi Nigiri</a></h3>
-                    <p class="categoria-link-blog-p">Delicadeza en su máxima expresión. Cada bocado de nigiri combina arroz sazonado y pescado fresco en perfecta armonía.</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-kare-raisu.03cebc1d.png" loading="lazy" alt="Kare Raisu"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Kare Raisu</a></h3>
-                    <p class="categoria-link-blog-p">El sabor casero de Japón: un curry suave, reconfortante y lleno de sabor que conquista desde el primer bocado.</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-bento.8a0840a5.png" loading="lazy" alt="Bento Tradicional"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Bento Tradicional</a></h3>
-                    <p class="categoria-link-blog-p">Color, sabor y equilibrio en una sola caja. El almuerzo japonés por excelencia, pensado para alimentar cuerpo y alma.</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-gyoza.1e6ed88c.png" loading="lazy" alt="Gyoza"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Gyoza</a></h3>
-                    <p class="categoria-link-blog-p">Crujientes por fuera, jugosas por dentro. Estas empanadillas japonesas son el entrante perfecto… ¡y adictivas!</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-onigiri.284fb6f8.png" loading="lazy" alt="Onigiri"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Onigiri</a></h3>
-                    <p class="categoria-link-blog-p">Triángulos de arroz envueltos parcialmente en alga nori, rellenos de salmón o umeboshi (ciruela encurtida).</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-gyudon.5b8637a2.png" loading="lazy" alt="Donburi de Ternera (Gyudon)"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Donburi de Ternera (Gyudon)</a></h3>
-                    <p class="categoria-link-blog-p">Rápido, reconfortante y lleno de sabor. Este bol de arroz con ternera es un favorito japonés para el día a día.</p>
-                </div>
-            </article>
-            
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-mochi.f1458f50.png" loading="lazy" alt="Mochi de Té Verde"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Mochi de Té Verde</a></h3>
-                    <p class="categoria-link-blog-p">Dulce, suave y con un toque de amargor elegante. El postre japonés por excelencia que deleita a todos los sentidos.</p>
-                </div>
-            </article>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer">
-    <img class="img-footer" src="/logo.08a29ce2.png" loading="lazy" alt="Sabores de Japón">
-    <p id="p-footer">2025. DANIEL OLIVA GOMEZ</p>
-    <div class="socials">
-        <a href=""><img class="img-socials" src="/instagram.a4fa9dbb.svg" loading="lazy" alt="Instagram"></a>
-        <a href=""><img class="img-socials" src="/youtube.21e6491f.svg" loading="lazy" alt="YouTube"></a>
-    </div>
-    <ul class="politicas">
-        <li id="pol-priv"><a class="link-footer" href="">Política de privacidad</a></li>
-        <li id="cookies"><a class="link-footer" href="">Política de <i lang="en">cookies</i></a></li>
-        <li><a class="link-footer" href="">Aviso legal</a></li>
-    </ul>
-</div>
-    </footer>
-
-    <!-- <script type="module" src="../js/main.js"></script> -->
-    <script defer="">// modules are defined as an array
+// modules are defined as an array
 // [ module function, map of requires ]
 //
 // map of requires is short require name -> numeric require
@@ -297,7 +156,7 @@
       });
     }
   }
-})({"aW38C":[function(require,module,exports,__globalThis) {
+})({"cMEaT":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -305,7 +164,7 @@ var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "05d3fc4690d8b259";
+module.bundle.HMR_BUNDLE_ID = "b5ac21f30155c232";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -802,18 +661,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"cXpbv":[function(require,module,exports,__globalThis) {
-document.querySelectorAll(".receta-link").forEach((link)=>{
-    link.addEventListener("click", (e)=>{
-        e.preventDefault();
-        const id = e.currentTarget.dataset.id;
-        window.location.href = `detalle.html?id=${id}`;
-    });
-}); // redirección manual del navegador para evitar conflicto con detalle.html?id=xxx.
+},{}],"7afug":[function(require,module,exports,__globalThis) {
 
-},{}]},["aW38C","cXpbv"], "cXpbv", "parcelRequire2632")
+},{}]},["cMEaT","7afug"], "7afug", "parcelRequire2632")
 
-</script>
-</body>
-</html>
-
+//# sourceMappingURL=pages.0155c232.js.map

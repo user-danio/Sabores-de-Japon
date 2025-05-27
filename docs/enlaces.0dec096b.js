@@ -1,145 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabores de Japón</title>
-    <link rel="stylesheet" href="/pages.3b8f328d.css">
-    <link rel="icon" type="image/x-icon" href="/logo.08a29ce2.png">
-</head>
-
-<body>
-    <header>
-        <div class="header">
-    <div class="logo">
-        <a href="/index.html"> <img src="/logo.5b34b4d1.svg" alt="Sabores de Japón" class="logo-animado"></a> 
-    </div>
-    <nav class="navigation">
-        <ul class="nav-list">
-            <li id="tema-mes"><a class="link-header" href="/index.html">Inicio</a></li>
-            <li><a class="link-header" href="/categoria.html">Recetas</a></li>
-            <li><a class="link-header" href="#">Restaurantes</a></li>
-            <li><a class="link-header" href="#">Eventos</a></li>
-            <li><a class="link-header" href="/enlaces.html">Información</a></li>
-        </ul>
-    </nav>
-</div>
-    </header>
-
-    <main class="categoria-main">
-        <h1>Selección de recetas</h1>
-
-        <section class="categoria-grid">
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="/detalle.html" class="receta-link" data-id="ramen"><img class="categoria-item-img" src="/categoria-ramen-tonkotsu.8adb9f12.png" alt="Ramen Tonkotsu"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="/detalle.html">Ramen Tonkotsu</a></h3>
-                    <p class="categoria-link-blog-p">Sumérgete en la intensidad del sabor japonés con este ramen de caldo cremoso cocinado durante horas. ¡Una explosión umami en cada cucharada!</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="/detalle.html" class="receta-link" data-id="yakitori"><img class="categoria-item-img" src="/categoria-yakitori.b396fa44.png" alt="Yakitori"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Yakitori</a></h3>
-                    <p class="categoria-link-blog-p">Brochetas irresistibles de pollo a la parrilla, bañadas en una salsa dulce y salada. ¡Perfectas para acompañar con sake o una buena charla!</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="/detalle.html"><img class="categoria-item-img" src="/categoria-sushi-nigiri.fa3c79e8.png" alt="Sushi Nigiri"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Sushi Nigiri</a></h3>
-                    <p class="categoria-link-blog-p">Delicadeza en su máxima expresión. Cada bocado de nigiri combina arroz sazonado y pescado fresco en perfecta armonía.</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-kare-raisu.03cebc1d.png" loading="lazy" alt="Kare Raisu"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Kare Raisu</a></h3>
-                    <p class="categoria-link-blog-p">El sabor casero de Japón: un curry suave, reconfortante y lleno de sabor que conquista desde el primer bocado.</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-bento.8a0840a5.png" loading="lazy" alt="Bento Tradicional"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Bento Tradicional</a></h3>
-                    <p class="categoria-link-blog-p">Color, sabor y equilibrio en una sola caja. El almuerzo japonés por excelencia, pensado para alimentar cuerpo y alma.</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-gyoza.1e6ed88c.png" loading="lazy" alt="Gyoza"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Gyoza</a></h3>
-                    <p class="categoria-link-blog-p">Crujientes por fuera, jugosas por dentro. Estas empanadillas japonesas son el entrante perfecto… ¡y adictivas!</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-onigiri.284fb6f8.png" loading="lazy" alt="Onigiri"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Onigiri</a></h3>
-                    <p class="categoria-link-blog-p">Triángulos de arroz envueltos parcialmente en alga nori, rellenos de salmón o umeboshi (ciruela encurtida).</p>
-                </div>
-            </article>
-
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-gyudon.5b8637a2.png" loading="lazy" alt="Donburi de Ternera (Gyudon)"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Donburi de Ternera (Gyudon)</a></h3>
-                    <p class="categoria-link-blog-p">Rápido, reconfortante y lleno de sabor. Este bol de arroz con ternera es un favorito japonés para el día a día.</p>
-                </div>
-            </article>
-            
-            <article class="categoria-card">
-                <div class="categoria-item-pic">
-                    <a href="#"><img class="categoria-item-img" src="/categoria-mochi.f1458f50.png" loading="lazy" alt="Mochi de Té Verde"></a>
-                </div>
-                <div class="categoria-item-content">
-                    <h3><a class="categoria-link-blog-h3" href="#">Mochi de Té Verde</a></h3>
-                    <p class="categoria-link-blog-p">Dulce, suave y con un toque de amargor elegante. El postre japonés por excelencia que deleita a todos los sentidos.</p>
-                </div>
-            </article>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer">
-    <img class="img-footer" src="/logo.08a29ce2.png" loading="lazy" alt="Sabores de Japón">
-    <p id="p-footer">2025. DANIEL OLIVA GOMEZ</p>
-    <div class="socials">
-        <a href=""><img class="img-socials" src="/instagram.a4fa9dbb.svg" loading="lazy" alt="Instagram"></a>
-        <a href=""><img class="img-socials" src="/youtube.21e6491f.svg" loading="lazy" alt="YouTube"></a>
-    </div>
-    <ul class="politicas">
-        <li id="pol-priv"><a class="link-footer" href="">Política de privacidad</a></li>
-        <li id="cookies"><a class="link-footer" href="">Política de <i lang="en">cookies</i></a></li>
-        <li><a class="link-footer" href="">Aviso legal</a></li>
-    </ul>
-</div>
-    </footer>
-
-    <!-- <script type="module" src="../js/main.js"></script> -->
-    <script defer="">// modules are defined as an array
+// modules are defined as an array
 // [ module function, map of requires ]
 //
 // map of requires is short require name -> numeric require
@@ -267,7 +126,7 @@
 
   // Only insert newRequire.load when it is actually used.
   // The code in this file is linted against ES5, so dynamic import is not allowed.
-  // INSERT_LOAD_HERE
+  function $parcel$resolve(url) {  url = importMap[url] || url;  return import.meta.resolve(distDir + url);}newRequire.resolve = $parcel$resolve;
 
   Object.defineProperty(newRequire, 'root', {
     get: function () {
@@ -297,15 +156,15 @@
       });
     }
   }
-})({"aW38C":[function(require,module,exports,__globalThis) {
+})({"cya7o":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "d6ea1d42532a7575";
+var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "05d3fc4690d8b259";
+module.bundle.HMR_BUNDLE_ID = "5b6bc5810dec096b";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -802,18 +661,151 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"cXpbv":[function(require,module,exports,__globalThis) {
-document.querySelectorAll(".receta-link").forEach((link)=>{
-    link.addEventListener("click", (e)=>{
-        e.preventDefault();
-        const id = e.currentTarget.dataset.id;
-        window.location.href = `detalle.html?id=${id}`;
+},{}],"1tXJ4":[function(require,module,exports,__globalThis) {
+var _recetasJs = require("./recetas.js");
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+const data = (0, _recetasJs.recetas)[id];
+if (data) {
+    const container = document.getElementById("detalle-container");
+    container.innerHTML = `
+        <div class="detalle-container-js">
+            <h1 class="detalle-titulo">${data.titulo}</h1>
+            <img class="detalle-img-dest" src="${data.imagenDestacada[0]}" alt="Bol Ramen">
+            <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenDestacada[1]}</caption></p>
+            <p class="detalle-p">${data.descripcion[0]}</p>
+            <img class="detalle-img" src="${data.imagenes[0][0]}" loading="lazy" alt="Fukuoka">
+            <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenes[0][1]}</caption></p>
+            <p class="detalle-p">${data.descripcion[1]}</p>
+            <img class="detalle-img" src="${data.imagenes[1][0]}" loading="lazy" alt="Ingredientes Ramen">
+            <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenes[1][1]}</caption></p>
+            <p class="detalle-p">${data.descripcion[2]}</p>
+            <img class="detalle-img" src="${data.imagenes[2][0]}" loading="lazy" alt="Bol Ramen">
+            <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenes[2][1]}</caption></p>
+            <p class="detalle-p">A continuaci\xf3n se puede ver un v\xeddeo tutorial de la preparaci\xf3n del ${data.titulo}</p>
+            <iframe class="detalle-vid" width="560" height="315" src="${data.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    `;
+} else document.getElementById("detalle-container").innerHTML = "<p>Receta no encontrada.</p>";
+ // console.log("Ruta de la imagen:", data.imagenDestacada);
+ // console.log(import.meta.url);
+ // console.log(new URL('../assets/images/detalle-tonkotsu-1.jpg', import.meta.url));
+
+},{"./recetas.js":"6ACyB"}],"6ACyB":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "recetas", ()=>recetas);
+const recetas = {
+    ramen: {
+        titulo: "Ramen Tonkotsu",
+        imagenDestacada: [
+            new URL(require("80580ef51ca405cb")),
+            "Las Recetas de MJ | Ramen Tonkostu"
+        ],
+        descripcion: [
+            "El ramen tonkotsu es una de las variedades m\xe1s populares de Jap\xf3n, originaria de la regi\xf3n de Fukuoka, en la isla de Kyushu. Su nombre proviene de los caracteres japoneses para \u201Ccerdo\u201D (\u8C5A, ton) y \u201Chueso\u201D (\u9AA8, kotsu), ya que su base es un caldo blanco y espeso que se obtiene tras hervir huesos de cerdo durante muchas horas. El resultado es una sopa cremosa y rica en col\xe1geno, con un sabor intenso que lo convierte en el favorito de muchos amantes del ramen.",
+            "La preparaci\xf3n del tonkotsu requiere paciencia y dedicaci\xf3n. El caldo se elabora cociendo huesos de cerdo a fuego alto durante m\xe1s de 10 horas, lo que libera todos los sabores y da lugar a su caracter\xedstico color lechoso. A este caldo se le a\xf1aden fideos finos, cocidos al dente, y una selecci\xf3n de toppings como chashu (lonchas de panceta de cerdo marinada), huevo marinado, cebolleta, alga nori y brotes de bamb\xfa. Cada elemento est\xe1 cuidadosamente elegido para equilibrar la textura y el sabor del plato.",
+            "En Jap\xf3n, cada tienda de ramen tiene su propia receta secreta para el tonkotsu, lo que convierte cada visita en una experiencia \xfanica. Algunas variantes a\xf1aden ajo frito, aceite picante o miso para aportar nuevas dimensiones al caldo. Comer ramen tambi\xe9n es un acto cultural: es com\xfan ver a los clientes sorber los fideos ruidosamente, lo cual no solo est\xe1 socialmente aceptado, sino que tambi\xe9n se considera una muestra de disfrute. El tonkotsu ramen no es solo comida, es una tradici\xf3n japonesa que combina t\xe9cnica, historia y pasi\xf3n culinaria."
+        ],
+        imagenes: [
+            [
+                new URL(require("a5f878dcb83c354b")),
+                "Mochileando por Asia | Fukuoka"
+            ],
+            [
+                new URL(require("f9f9f7766cc41bed")),
+                "Bon Vivieur | Ingredientes Ramen"
+            ],
+            [
+                new URL(require("ddc88bef9b25f81b")),
+                "Ninkja Test Kitchen | Ramen Tonkostu"
+            ]
+        ],
+        video: "https://www.youtube.com/embed/PapI5RBDstc?si=PEJ-_7V4fZ549xql"
+    },
+    yakitori: {
+        titulo: "Yakitori",
+        imagenDestacada: [
+            new URL(require("b90ada5194f5490c")),
+            "Fran J. Martin | Yakitori"
+        ],
+        descripcion: [
+            "El yakitori es una de las comidas callejeras m\xe1s populares de Jap\xf3n. Se trata de brochetas de pollo asadas a la parrilla, cocinadas generalmente sobre carb\xf3n vegetal y sazonadas con sal o con una salsa dulce-salada llamada tare. Este plato es especialmente com\xfan en los izakaya (bares tradicionales japoneses) y puestos callejeros, donde se sirve como acompa\xf1amiento para bebidas. Su simplicidad y sabor ahumado hacen del yakitori una experiencia gastron\xf3mica \xfanica, perfecta tanto como aperitivo como para una comida completa.",
+            "Aunque yakitori significa literalmente \u201Cpollo a la parrilla\u201D, este plato abarca una gran variedad de partes del pollo, desde pechuga y muslo hasta piel, coraz\xf3n o higaditos. Las brochetas se cocinan a fuego medio-alto sobre brasas, d\xe1ndoles vueltas constantemente para asegurar una cocci\xf3n uniforme. El toque final es el ba\xf1o en la salsa tare, elaborada con soja, mirin, sake y az\xfacar, que carameliza ligeramente sobre la carne, d\xe1ndole un brillo y sabor caracter\xedsticos. Su preparaci\xf3n puede parecer sencilla, pero requiere t\xe9cnica y atenci\xf3n al detalle.",
+            "En Jap\xf3n, es habitual ver a grupos de amigos o compa\xf1eros de trabajo reunidos en torno a un izakaya, compartiendo brochetas de yakitori despu\xe9s de un largo d\xeda. M\xe1s que una simple comida, el yakitori representa un momento de desconexi\xf3n, conversaci\xf3n y tradici\xf3n. Adem\xe1s, en festivales y ferias callejeras, los puestos de yakitori atraen con su aroma inconfundible y su preparaci\xf3n en vivo. Esta conexi\xf3n con la vida social y la cultura popular ha hecho del yakitori un s\xedmbolo del Jap\xf3n cotidiano."
+        ],
+        imagenes: [
+            [
+                new URL(require("ca5080f57ec1a255")),
+                "Nippon | Izakaya"
+            ],
+            [
+                new URL(require("f34aa2700c357311")),
+                "Scoolinary | Salsa Tare"
+            ],
+            [
+                new URL(require("aad15543ba2d5cb1")),
+                "Barbecue Bible | Yakitori"
+            ]
+        ],
+        video: "https://www.youtube.com/embed/EjvprAM2kMw?si=-SyI22fJuzFaNuuo"
+    }
+};
+
+},{"80580ef51ca405cb":"ka40Q","a5f878dcb83c354b":"2whK3","f9f9f7766cc41bed":"40ity","ddc88bef9b25f81b":"2JzMA","b90ada5194f5490c":"8FBeu","ca5080f57ec1a255":"5JNQP","f34aa2700c357311":"62mCb","aad15543ba2d5cb1":"bLcc7","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ka40Q":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("detalle-tonkotsu-1.f92c7039.jpeg") + "?" + Date.now();
+
+},{}],"2whK3":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("detalle-tonkotsu-fukuoka.98c55cff.jpeg") + "?" + Date.now();
+
+},{}],"40ity":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("detalle-tonkotsu-ingredientes.c3961d95.jpeg") + "?" + Date.now();
+
+},{}],"2JzMA":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("detalle-tonkotsu-2.d24f3bfb.jpeg") + "?" + Date.now();
+
+},{}],"8FBeu":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("detalle-yakitori-1.75e86551.jpeg") + "?" + Date.now();
+
+},{}],"5JNQP":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("detalle-yakitori-izakaya.0e0631dd.jpeg") + "?" + Date.now();
+
+},{}],"62mCb":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("detalle-yakitori-tare.49a13595.jpeg") + "?" + Date.now();
+
+},{}],"bLcc7":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("detalle-yakitori-2.426a6b67.jpeg") + "?" + Date.now();
+
+},{}],"jnFvT":[function(require,module,exports,__globalThis) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
     });
-}); // redirección manual del navegador para evitar conflicto con detalle.html?id=xxx.
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
-},{}]},["aW38C","cXpbv"], "cXpbv", "parcelRequire2632")
+},{}]},["cya7o","1tXJ4"], "1tXJ4", "parcelRequire2632", "./", "/")
 
-</script>
-</body>
-</html>
-
+//# sourceMappingURL=enlaces.0dec096b.js.map
