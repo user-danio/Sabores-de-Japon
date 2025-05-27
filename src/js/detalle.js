@@ -14,13 +14,13 @@ if (data) {
             <img class="detalle-img-dest" src="${data.imagenDestacada[0]}" alt="Bol Ramen">
             <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenDestacada[1]}</caption></p>
             <p class="detalle-p">${data.descripcion[0]}</p>
-            <img class="detalle-img" src="${data.imagenes[0][0]}" alt="Fukuoka">
+            <img class="detalle-img" src="${data.imagenes[0][0]}" loading="lazy" alt="Fukuoka">
             <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenes[0][1]}</caption></p>
             <p class="detalle-p">${data.descripcion[1]}</p>
-            <img class="detalle-img" src="${data.imagenes[1][0]}" alt="Ingredientes Ramen">
+            <img class="detalle-img" src="${data.imagenes[1][0]}" loading="lazy" alt="Ingredientes Ramen">
             <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenes[1][1]}</caption></p>
             <p class="detalle-p">${data.descripcion[2]}</p>
-            <img class="detalle-img" src="${data.imagenes[2][0]}" alt="Bol Ramen">
+            <img class="detalle-img" src="${data.imagenes[2][0]}" loading="lazy" alt="Bol Ramen">
             <p class="detalle-cap-p"><caption class="detalle-cap">Imagen de ${data.imagenes[2][1]}</caption></p>
             <p class="detalle-p">A continuación se puede ver un vídeo tutorial de la preparación del ${data.titulo}</p>
             <iframe class="detalle-vid" width="560" height="315" src="${data.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
